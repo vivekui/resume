@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Inter";
+	 src: url("../fonts/inter.woff") format('woff');
+}
+
+:root{
+    --text-blue: #074d89;
+}
+
+body{
+    background-color: white;
+    font-family: "Inter";
+}
+
+a{
+    text-decoration: none;
+    color: #0088ff;
+}
+
+.container{
+	width: 1050px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.toprow{
+    margin-top: 10px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid black;
+}
+
+.name{
+    color: var(--text-blue); 
+    text-transform: uppercase;   
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+}
+
+
+.designation{ 
+    text-transform: uppercase;   
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0px 0px 12px;
+}
+
+.smallsummary{
+    letter-spacing: 1px;
+}
+
+.contact{
+    text-align: right;
+    font-weight: 500;
+}
+
+.icon img{
+    height: 24px;
+    width: 24px;
+}
+
+table.contact{
+    width: 100%;
+}
+
+td.ctype{
+    width: 90%;
+    padding: 8px;
+}
+
+/*************/
+
+.careerhightlightbar{
+    background-color: #094172;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    margin: 16px 0px 20px 0px;
+    font-size: 20px;
+}
+
+.highlightpts{
+    margin-bottom: 48px;
+}
+
+.highlightpts li:after{
+
+}
+
+.highlightpts li{
+    list-style: circle;
+    margin-bottom: 5px;
+    padding: 5px 0px 5px 10px;
+}
+
+.highlightpts li span{
+    
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.skills_expert{
+    margin-bottom: 32px;
+}
+
+.skill{
+    font-weight: 200;
+    padding: 6px 20px;
+    margin: 2px;
+    color: white;
+    background-color: #363637;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.lskill{
+    color: black;
+    background-color: #58ecc7;
+}
+
+.skillline{
+    justify-content: space-between;
+    display: flex;
+    margin: 16px 0px;
+}
+
+.skillline div{
+    width: fit-content;
+    position: relative;
+}
+
+.expsection{
+    margin: 20px 0px;
+}
+
+.expyear{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-size: 20px;
+}
+
+.exponeliner{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.exppoints{
+    margin: 16px;
+}
